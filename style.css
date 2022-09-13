@@ -1,6 +1,7 @@
 body {
     background-image: url("backgroundimage4.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: sans-serif;
 }
 
