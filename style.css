@@ -1,0 +1,115 @@
+body {
+    background-image: url("backgroundimage4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+#name {
+    color: rgb(98, 95, 95);
+    text-align: center;
+}
+
+.short_intro {
+    text-align: center;
+    color: rgb(117, 115, 115);
+}
+
+.profileimage {
+    display: block; 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+#zebratable table {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+}
+
+#zebratable th {
+    background-color: rgb(240, 189, 95);
+    border: none;
+}
+
+#zebratable tr:nth-child(2) {
+    background-color: greenyellow;
+    border: none;
+}
+
+#zebratable tr:nth-child(3) {
+    background-color: rgb(226, 167, 226);
+    border: none;
+}
+
+#zebratable tr:nth-child(4) {
+    background-color: rgb(190, 228, 242);
+    border: none;
+}
+
+#zebratable tr:nth-child(5) {
+    background-color: rgb(148, 159, 248);
+    border: none;
+}
+
+#zebratable tr:nth-child(6) {
+    background-color: rgb(221, 247, 193);
+    border: none;
+}
+
+#zebratable tr:nth-child(7) {
+    background-color: rgb(175, 206, 184);
+    border: none;
+}
+
+#zebratable td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#quote .p1 {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#quote .p2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.hobbies {
+    list-style-type:circle;
+}
+
+.listheadings {
+    text-decoration: underline;
+}
+
+a:link {
+    color: rgb(132, 0, 255);
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: rgb(110, 52, 95);
+}
+
+a:active {
+    color: blue;
+}
