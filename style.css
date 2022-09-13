@@ -71,6 +71,12 @@ span {
 
 .hobbies {
     list-style-type:circle;
+    margin-top: 5px;
+}
+
+.sports {
+    list-style-type:circle;
+    margin-top: 5px;
 }
 
 .listheadings {
