@@ -43,41 +43,49 @@ span {
 #zebratable th {
     background-color: rgb(240, 189, 95);
     border: none;
+    border-spacing: 0px;
 }
 
 #zebratable tr:nth-child(2) {
     background-color: greenyellow;
     border: none;
+    border-spacing: 0px;
 }
 
 #zebratable tr:nth-child(3) {
     background-color: rgb(226, 167, 226);
     border: none;
+    border-spacing: 0px;
 }
 
 #zebratable tr:nth-child(4) {
     background-color: rgb(190, 228, 242);
     border: none;
+    border-spacing: 0px;
 }
 
 #zebratable tr:nth-child(5) {
     background-color: rgb(148, 159, 248);
     border: none;
+    border-spacing: 0px;
 }
 
 #zebratable tr:nth-child(6) {
     background-color: rgb(221, 247, 193);
     border: none;
+    border-spacing: 0px;
 }
 
 #zebratable tr:nth-child(7) {
     background-color: rgb(175, 206, 184);
     border: none;
+    border-spacing: 0px;
 }
 
 #zebratable td {
     text-align: center;
     vertical-align: middle;
+    border-spacing: 0px;
 }
 
 #quote .p1 {
