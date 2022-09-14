@@ -41,13 +41,19 @@ span {
 }
 
 #zebratable th {
-    background-color: violet;
+    background-color: rgb(167, 78, 167);
+    border: none;
+    border-spacing: 0px;
+    color:aliceblue;
+}
+
+#zebratable tr:nth-child(odd) {
+    background-color: rgb(103, 102, 102);
     border: none;
     border-spacing: 0px;
 }
-
 #zebratable tr:nth-child(even) {
-    background-color: grey;
+    background-color: white;
     border: none;
     border-spacing: 0px;
 }
@@ -71,20 +77,31 @@ span {
 
 .hobbies {
     list-style-type:circle;
-    margin-top: 5px;
+    
 }
 
 .sports {
     list-style-type:circle;
-    margin-top: 5px;
+}
+
+.headings {
+    border-bottom: 3px dashed;
+    display: inline-block;
+    color:blueviolet;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .listheadings {
-    text-decoration: underline;
+    font-style: italic;
+    color: gray;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 1px dashed;
 }
 
 a:link, a:visited, a:active {
-    color: blue;
+    color: rgb(189, 139, 206);
 }
 
 a:hover {
