@@ -1,7 +1,7 @@
 body {
     background-image: url("backgroundimage4.jpg");
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: sans-serif;
 }
 
@@ -37,46 +37,25 @@ span {
     margin-right: auto;
     width: 75%;
     height: 75%;
+    border-spacing: 0px;
 }
 
 #zebratable th {
-    background-color: rgb(240, 189, 95);
+    background-color: violet;
     border: none;
+    border-spacing: 0px;
 }
 
-#zebratable tr:nth-child(2) {
-    background-color: greenyellow;
+#zebratable tr:nth-child(even) {
+    background-color: grey;
     border: none;
-}
-
-#zebratable tr:nth-child(3) {
-    background-color: rgb(226, 167, 226);
-    border: none;
-}
-
-#zebratable tr:nth-child(4) {
-    background-color: rgb(190, 228, 242);
-    border: none;
-}
-
-#zebratable tr:nth-child(5) {
-    background-color: rgb(148, 159, 248);
-    border: none;
-}
-
-#zebratable tr:nth-child(6) {
-    background-color: rgb(221, 247, 193);
-    border: none;
-}
-
-#zebratable tr:nth-child(7) {
-    background-color: rgb(175, 206, 184);
-    border: none;
+    border-spacing: 0px;
 }
 
 #zebratable td {
     text-align: center;
     vertical-align: middle;
+    border-spacing: 0px;
 }
 
 #quote .p1 {
@@ -92,24 +71,22 @@ span {
 
 .hobbies {
     list-style-type:circle;
+    margin-top: 5px;
+}
+
+.sports {
+    list-style-type:circle;
+    margin-top: 5px;
 }
 
 .listheadings {
     text-decoration: underline;
 }
 
-a:link {
-    color: rgb(132, 0, 255);
-}
-
-a:visited {
-    color: green;
+a:link, a:visited, a:active {
+    color: blue;
 }
 
 a:hover {
     color: brown;
-}
-
-a:active {
-    color: blue;
 }
